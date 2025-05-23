@@ -1,0 +1,32 @@
+﻿<Window x:Class="EGE.View.AddResultExemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EGE.View" xmlns:viewmodel="clr-namespace:EGE.ViewModel"
+        mc:Ignorable="d"
+        Title="{Binding IsEditMode, Converter={StaticResource EditModeToTitleConverter}, ConverterParameter='результата ЕГЭ'}"
+        Height="300" Width="350" WindowStartupLocation="CenterOwner">
+
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Абитуриент"/>
+            <ComboBox 
+                     ItemsSource="{Binding AllAbiturients}"
+                     DisplayMemberPath="LastName"
+                     SelectedValuePath="IDAbitur"
+                     SelectedValue="{Binding NewResult.IDAbitur}"
+                     SelectedItem="{Binding SelectedAbiturient}"/>
+
+            <TextBlock Text="Предмет" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewResult.Predmet}"/>
+
+            <TextBlock Text="Балл" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewResult.BallEGE}"/>
+
+            <Button Content="{Binding IsEditMode, Converter={StaticResource EditModeToButtonTextConverter}}" 
+                    Command="{Binding SaveCommand}" 
+                    Margin="0,15,0,0" Padding="20,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

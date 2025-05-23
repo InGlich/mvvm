@@ -1,0 +1,49 @@
+﻿<Window x:Class="EGE.View.AddAbiturientWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:converters="clr-namespace:EGE.Converters"
+        mc:Ignorable="d"
+        Title="{Binding IsEditMode, Converter={StaticResource EditModeToTitleConverter}, ConverterParameter='абитуриента'}"
+        Height="400" Width="350" WindowStartupLocation="CenterOwner">
+
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Фамилия"/>
+            <TextBox Text="{Binding NewAbiturient.LastName, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <TextBlock Text="Школа" Margin="0,10,0,0"/>
+            <ComboBox 
+             ItemsSource="{Binding AllShools}"
+             DisplayMemberPath="NameOrganiz"
+             SelectedValuePath="IDSchool"
+             SelectedValue="{Binding NewAbiturient.IDSchool}"
+             SelectedItem="{Binding SelectedShool}"/>
+
+            <TextBlock Text="Адрес" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewAbiturient.Adres}"/>
+
+            <TextBlock Text="Дата рождения" Margin="0,10,0,0"/>
+            <DatePicker SelectedDate="{Binding NewAbiturient.DateBirth}"/>
+
+            <TextBlock Text="Телефон" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewAbiturient.Phone}"/>
+
+            <TextBlock Text="Балл аттестата" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewAbiturient.CredBal}"/>
+
+            <TextBlock Text="Специальность" Margin="0,10,0,0"/>
+            <ComboBox 
+            ItemsSource="{Binding AllSpecialnosti}"
+            DisplayMemberPath="NameSpecial"
+            SelectedValuePath="IDSpecial"
+            SelectedValue="{Binding NewAbiturient.IDSpecial}"
+            SelectedItem="{Binding SelectedSpecialnost}"/>
+
+            <Button Content="{Binding IsEditMode, Converter={StaticResource EditModeToButtonTextConverter}}" 
+                    Command="{Binding SaveCommand}" 
+                    Margin="0,15,0,0" Padding="20,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

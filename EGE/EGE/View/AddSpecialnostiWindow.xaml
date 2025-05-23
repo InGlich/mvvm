@@ -1,0 +1,40 @@
+﻿<Window x:Class="EGE.View.AddSpecialnostiWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EGE.View" xmlns:viewmodel="clr-namespace:EGE.ViewModel"
+        mc:Ignorable="d"
+        Title="{Binding IsEditMode, Converter={StaticResource EditModeToTitleConverter}, ConverterParameter='специальности'}"
+        Height="400" Width="350" WindowStartupLocation="CenterOwner">
+
+    <Grid Margin="10">
+        <StackPanel>
+            <TextBlock Text="Шифр"/>
+            <TextBox Text="{Binding NewSpecialnost.Shifr}"/>
+
+            <TextBlock Text="Название" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewSpecialnost.NameSpecial}"/>
+
+            <TextBlock Text="Количество мест" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewSpecialnost.CountMest}"/>
+
+            <TextBlock Text="Форма обучения" Margin="0,10,0,0"/>
+            <TextBox Text="{Binding NewSpecialnost.FormaObychen}"/>
+
+            <CheckBox Content="Бюджет" IsChecked="{Binding NewSpecialnost.Bydzhet}" Margin="0,10,0,0"/>
+
+            <TextBlock Text="Отделение" Margin="0,10,0,0"/>
+            <ComboBox 
+                     ItemsSource="{Binding AllOtdelenie}"
+                     DisplayMemberPath="NameOtdel"
+                     SelectedValuePath="IDOtdel"
+                     SelectedValue="{Binding NewSpecialnost.IDOtdel}"
+                     SelectedItem="{Binding SelectedOtdelenie}"/>
+
+            <Button Content="{Binding IsEditMode, Converter={StaticResource EditModeToButtonTextConverter}}" 
+                    Command="{Binding SaveCommand}" 
+                    Margin="0,15,0,0" Padding="20,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

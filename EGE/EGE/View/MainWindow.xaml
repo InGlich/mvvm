@@ -1,0 +1,160 @@
+﻿<Window x:Class="EGE.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EGE"
+        mc:Ignorable="d"
+        Title="Управление базой данных" Height="450" Width="850">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="0">
+            <TabItem Header="Абитуриенты">
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Изменить" Command="{Binding EditAbiturientCommand}"/>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteAbiturientCommand}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBox Grid.Row="0" 
+      Text="{Binding SearchLastName, UpdateSourceTrigger=PropertyChanged}"
+      Margin="5" Padding="5"/>
+
+                    <ListView Grid.Row="1" 
+      ItemsSource="{Binding FilteredAbiturients}" 
+      SelectedItem="{Binding SelectedAbiturient}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding LastName}" Width="120"/>
+                                <GridViewColumn Header="Школа" DisplayMemberBinding="{Binding Shool.NameOrganiz}" Width="150"/>
+                                <GridViewColumn Header="Специальность" DisplayMemberBinding="{Binding Specialnosti.NameSpecial}" Width="150"/>
+                                <GridViewColumn Header="Балл" DisplayMemberBinding="{Binding CredBal}" Width="80"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Школы">
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Изменить" Command="{Binding EditShoolCommand}"/>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteShoolCommand}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView ItemsSource="{Binding AllShools}" SelectedItem="{Binding SelectedShool}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Название" DisplayMemberBinding="{Binding NameOrganiz}" Width="200"/>
+                            <GridViewColumn Header="Адрес" DisplayMemberBinding="{Binding Adres}" Width="250"/>
+                            <GridViewColumn Header="Абитуриенты" DisplayMemberBinding="{Binding Abiturients.Count}" Width="100"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+
+            <TabItem Header="Отделения">
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Изменить" Command="{Binding EditOtdelenieCommand}"/>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteOtdelenieCommand}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView ItemsSource="{Binding AllOtdelenie}" SelectedItem="{Binding SelectedOtdelenie}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Название" DisplayMemberBinding="{Binding NameOtdel}" Width="200"/>
+                            <GridViewColumn Header="Специальностей" DisplayMemberBinding="{Binding Specialnostis.Count}" Width="120"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+
+            <TabItem Header="Специальности">
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Изменить" Command="{Binding EditSpecialnostCommand}"/>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteSpecialnostCommand}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView ItemsSource="{Binding AllSpecialnosti}" SelectedItem="{Binding SelectedSpecialnost}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Название" DisplayMemberBinding="{Binding NameSpecial}" Width="150"/>
+                            <GridViewColumn Header="Отделение" DisplayMemberBinding="{Binding Otdelenie.NameOtdel}" Width="150"/>
+                            <GridViewColumn Header="Бюджет" DisplayMemberBinding="{Binding Bydzhet}" Width="80"/>
+                            <GridViewColumn Header="Мест" DisplayMemberBinding="{Binding CountMest}" Width="80"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+
+            <TabItem Header="Результаты ЕГЭ">
+                <TabItem.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Изменить" Command="{Binding EditResultCommand}"/>
+                        <MenuItem Header="Удалить" Command="{Binding DeleteResultCommand}"/>
+                    </ContextMenu>
+                </TabItem.ContextMenu>
+                <ListView ItemsSource="{Binding AllResults}" SelectedItem="{Binding SelectedResult}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Абитуриент" DisplayMemberBinding="{Binding Abiturient.LastName}" Width="120"/>
+                            <GridViewColumn Header="Предмет" DisplayMemberBinding="{Binding Predmet}" Width="150"/>
+                            <GridViewColumn Header="Балл" DisplayMemberBinding="{Binding BallEGE}" Width="80"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Процедура">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+                        <ComboBox 
+                ItemsSource="{Binding SpecialnostiForProcedure}"
+                DisplayMemberPath="NameSpecial"
+                SelectedValuePath="IDSpecial"
+                SelectedItem="{Binding SelectedSpecialForProcedure}"
+                Width="200" Margin="0,0,10,0"/>
+
+                        <Button Content="Выполнить процедуру" 
+                    Command="{Binding ExecuteProcedureCommand}"
+                    Padding="10,5"/>
+                    </StackPanel>
+
+                    <ListView Grid.Row="1" ItemsSource="{Binding ApplicantsFromProcedure}">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding LastName}" Width="120"/>
+                                <GridViewColumn Header="Школа" DisplayMemberBinding="{Binding Shool.NameOrganiz}" Width="150"/>
+                                <GridViewColumn Header="Балл аттестата" DisplayMemberBinding="{Binding CredBal}" Width="100"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Добавить абитуриента" Command="{Binding AddAbiturientCommand}" Width="150" Margin="5"/>
+            <Button Content="Добавить школу" Command="{Binding AddShoolCommand}" Width="120" Margin="5"/>
+            <Button Content="Добавить отделение" Command="{Binding AddOtdelenieCommand}" Width="140" Margin="5"/>
+            <Button Content="Добавить спец." Command="{Binding AddSpecialnostCommand}" Width="120" Margin="5"/>
+            <Button Content="Добавить результат" Command="{Binding AddResultCommand}" Width="140" Margin="5"/>
+            <Button Content="Экспорт в Excel" Command="{Binding ExportCommand}" Width="120" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
