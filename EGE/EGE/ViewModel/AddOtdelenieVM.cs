@@ -61,13 +61,7 @@ namespace EGE.ViewModel
                     return;
                 }
 
-                
-                if (NewOtdelenie.IDOtdel == 0) 
-                {
-                    NewOtdelenie.IDOtdel = _db.Otdelenie.Any()
-                        ? _db.Otdelenie.Max(o => o.IDOtdel) + 1
-                        : 1; 
-                }
+    
 
                 _db.Otdelenie.Add(NewOtdelenie);
             }

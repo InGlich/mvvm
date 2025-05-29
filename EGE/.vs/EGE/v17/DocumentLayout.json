@@ -1,53 +1,79 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\",
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\viewmodel\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\viewmodel\\addotdelenievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\viewmodel\\addotdelenievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\viewmodel\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\viewmodel\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\view\\addotdeleniewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\addotdeleniewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\view\\addabiturientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\addabiturientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\viewmodel\\addotdelenievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\viewmodel\\addotdelenievm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\model\\abiturient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\model\\abiturient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\viewmodel\\addabiturientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\viewmodel\\addabiturientvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\converters\\editmodetotitleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\converters\\editmodetotitleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\converters\\editmodetobuttontextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\converters\\editmodetobuttontextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EGE||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\view\\addotdeleniewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\addotdeleniewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u0422\u0415\u041B\u042C_SOURCE_REPOS_EGE_EGE_APPDATA_BASEEGE.MDF/True/SqlTable/dbo.Otdelenie.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\model\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\model\\otdelenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\model\\otdelenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\model\\otdelenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\view\\addotdeleniewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\addotdeleniewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\view\\addresultexemwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\view\\addresultexemwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\addresultexemwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\view\\addresultexemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\view\\addresultexemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\addresultexemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\ege\\ege\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\ege\\model\\specialnosti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\ege\\model\\specialnosti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\model\\specialnosti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\ege\\converters\\editmodetotitleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|solutionrelative:ege\\converters\\editmodetotitleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C5212CD-89C9-4375-B89E-34E7A94E2ECC}|EGE\\EGE.csproj|c:\\users\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\ege\\ege\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,7 +83,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,48 +91,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddOtdelenieWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddOtdelenieWindow.xaml.cs",
-              "RelativeDocumentMoniker": "EGE\\View\\AddOtdelenieWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddOtdelenieWindow.xaml.cs",
-              "RelativeToolTip": "EGE\\View\\AddOtdelenieWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "EditModeToTitleConverter.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Converters\\EditModeToTitleConverter.cs",
+              "RelativeDocumentMoniker": "EGE\\Converters\\EditModeToTitleConverter.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Converters\\EditModeToTitleConverter.cs",
+              "RelativeToolTip": "EGE\\Converters\\EditModeToTitleConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T20:33:14.161Z",
+              "WhenOpened": "2025-05-29T18:09:37.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddOtdelenieWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddOtdelenieWindow.xaml",
-              "RelativeDocumentMoniker": "EGE\\View\\AddOtdelenieWindow.xaml",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddOtdelenieWindow.xaml",
-              "RelativeToolTip": "EGE\\View\\AddOtdelenieWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T20:33:12.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Otdelenie [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u0422\u0415\u041B\u042C_SOURCE_REPOS_EGE_EGE_APPDATA_BASEEGE.MDF/True/SqlTable/dbo.Otdelenie.sql",
-              "ToolTip": "dbo.Otdelenie [\u0414\u0430\u043D\u043D\u044B\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-22T20:13:50.899Z",
+              "DocumentIndex": 5,
+              "Title": "Abiturient.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\Abiturient.cs",
+              "RelativeDocumentMoniker": "EGE\\Model\\Abiturient.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\Abiturient.cs",
+              "RelativeToolTip": "EGE\\Model\\Abiturient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:08:44.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\App.config",
+              "RelativeDocumentMoniker": "EGE\\App.config",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\App.config",
+              "RelativeToolTip": "EGE\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-23T13:24:09.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditModeToButtonTextConverter.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Converters\\EditModeToButtonTextConverter.cs",
+              "RelativeDocumentMoniker": "EGE\\Converters\\EditModeToButtonTextConverter.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Converters\\EditModeToButtonTextConverter.cs",
+              "RelativeToolTip": "EGE\\Converters\\EditModeToButtonTextConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:09:34.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\App.xaml",
+              "RelativeDocumentMoniker": "EGE\\App.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\App.xaml",
+              "RelativeToolTip": "EGE\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T18:08:03.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AddOtdelenieVM.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\ViewModel\\AddOtdelenieVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\ViewModel\\AddOtdelenieVM.cs",
               "RelativeDocumentMoniker": "EGE\\ViewModel\\AddOtdelenieVM.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\ViewModel\\AddOtdelenieVM.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\ViewModel\\AddOtdelenieVM.cs",
               "RelativeToolTip": "EGE\\ViewModel\\AddOtdelenieVM.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAIwD8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T19:14:33.916Z",
               "EditorCaption": ""
@@ -114,23 +169,94 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AddAbiturientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddAbiturientWindow.xaml",
+              "RelativeDocumentMoniker": "EGE\\View\\AddAbiturientWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddAbiturientWindow.xaml",
+              "RelativeToolTip": "EGE\\View\\AddAbiturientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T18:09:48.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddAbiturientVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\ViewModel\\AddAbiturientVM.cs",
+              "RelativeDocumentMoniker": "EGE\\ViewModel\\AddAbiturientVM.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\ViewModel\\AddAbiturientVM.cs",
+              "RelativeToolTip": "EGE\\ViewModel\\AddAbiturientVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:10:09.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Model\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EGE\\Model\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Model\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\AppDbContext.cs",
               "RelativeToolTip": "EGE\\Model\\AppDbContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T20:13:30.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "EGE",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\EGE.csproj",
+              "RelativeDocumentMoniker": "EGE\\EGE.csproj",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\EGE.csproj",
+              "RelativeToolTip": "EGE\\EGE.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-29T18:00:41.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\ViewModel\\MainVM.cs",
+              "RelativeDocumentMoniker": "EGE\\ViewModel\\MainVM.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\ViewModel\\MainVM.cs",
+              "RelativeToolTip": "EGE\\ViewModel\\MainVM.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAADgv+UAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T18:12:26.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddOtdelenieWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddOtdelenieWindow.xaml",
+              "RelativeDocumentMoniker": "EGE\\View\\AddOtdelenieWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddOtdelenieWindow.xaml",
+              "RelativeToolTip": "EGE\\View\\AddOtdelenieWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T20:33:12.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Otdelenie.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u0422\u0415\u041B\u042C_SOURCE_REPOS_EGE_EGE_APPDATA_BASEEGE.MDF/True/SqlTable/dbo.Otdelenie.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_\u041F\u041E\u041B\u042C\u0417\u041E\u0412\u0410\u0422\u0415\u041B\u042C_SOURCE_REPOS_EGE_EGE_APPDATA_BASEEGE.MDF/True/SqlTable/dbo.Otdelenie.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-22T20:13:50.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Otdelenie.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Model\\Otdelenie.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\Otdelenie.cs",
               "RelativeDocumentMoniker": "EGE\\Model\\Otdelenie.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Model\\Otdelenie.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\Otdelenie.cs",
               "RelativeToolTip": "EGE\\Model\\Otdelenie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,49 +265,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainVM.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\ViewModel\\MainVM.cs",
-              "RelativeDocumentMoniker": "EGE\\ViewModel\\MainVM.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\ViewModel\\MainVM.cs",
-              "RelativeToolTip": "EGE\\ViewModel\\MainVM.cs",
-              "ViewState": "AgIAADABAAAAAAAAAAAIwDsBAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T15:52:35.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddResultExemWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddResultExemWindow.xaml",
-              "RelativeDocumentMoniker": "EGE\\View\\AddResultExemWindow.xaml",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddResultExemWindow.xaml",
-              "RelativeToolTip": "EGE\\View\\AddResultExemWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T20:34:02.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddResultExemWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddResultExemWindow.xaml.cs",
-              "RelativeDocumentMoniker": "EGE\\View\\AddResultExemWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\AddResultExemWindow.xaml.cs",
-              "RelativeToolTip": "EGE\\View\\AddResultExemWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T20:34:05.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EGE\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\MainWindow.xaml",
+              "RelativeToolTip": "EGE\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T20:22:33.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Specialnosti.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Model\\Specialnosti.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\Specialnosti.cs",
               "RelativeDocumentMoniker": "EGE\\Model\\Specialnosti.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Model\\Specialnosti.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\Model\\Specialnosti.cs",
               "RelativeToolTip": "EGE\\Model\\Specialnosti.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,27 +290,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "EGE\\View\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\View\\MainWindow.xaml",
-              "RelativeToolTip": "EGE\\View\\MainWindow.xaml",
+              "DocumentIndex": 16,
+              "Title": "AddResultExemWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddResultExemWindow.xaml",
+              "RelativeDocumentMoniker": "EGE\\View\\AddResultExemWindow.xaml",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddResultExemWindow.xaml",
+              "RelativeToolTip": "EGE\\View\\AddResultExemWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T20:22:33.187Z",
+              "WhenOpened": "2025-05-22T20:34:02.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EditModeToTitleConverter.cs",
-              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Converters\\EditModeToTitleConverter.cs",
-              "RelativeDocumentMoniker": "EGE\\Converters\\EditModeToTitleConverter.cs",
-              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\EGE\\EGE\\Converters\\EditModeToTitleConverter.cs",
-              "RelativeToolTip": "EGE\\Converters\\EditModeToTitleConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "AddResultExemWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddResultExemWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EGE\\View\\AddResultExemWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\\source\\repos\\gg\\EGE\\EGE\\View\\AddResultExemWindow.xaml.cs",
+              "RelativeToolTip": "EGE\\View\\AddResultExemWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:46:14.104Z",
+              "WhenOpened": "2025-05-22T20:34:05.037Z",
               "EditorCaption": ""
             }
           ]

@@ -90,10 +90,12 @@
                 <ListView ItemsSource="{Binding AllSpecialnosti}" SelectedItem="{Binding SelectedSpecialnost}">
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="Название" DisplayMemberBinding="{Binding NameSpecial}" Width="150"/>
-                            <GridViewColumn Header="Отделение" DisplayMemberBinding="{Binding Otdelenie.NameOtdel}" Width="150"/>
-                            <GridViewColumn Header="Бюджет" DisplayMemberBinding="{Binding Bydzhet}" Width="80"/>
-                            <GridViewColumn Header="Мест" DisplayMemberBinding="{Binding CountMest}" Width="80"/>
+                            <GridView.Columns>
+                                <GridViewColumn Header="Название" DisplayMemberBinding="{Binding NameSpecial}" Width="150"/>
+                                <GridViewColumn Header="Отделение" DisplayMemberBinding="{Binding Otdelenie.NameOtdel}" Width="150"/>
+                                <GridViewColumn Header="Бюджет" DisplayMemberBinding="{Binding Bydzhet}" Width="80"/>
+                                <GridViewColumn Header="Мест" DisplayMemberBinding="{Binding CountMest}" Width="80"/>
+                            </GridView.Columns>
                         </GridView>
                     </ListView.View>
                 </ListView>

@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Protocols;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,13 +19,34 @@ namespace EGE.Model
         public DbSet<Otdelenie> Otdelenie { get; set; }
         public DbSet<Specialnosti> Specialnosti { get; set; }
         public DbSet<ResultExem> ResultExem { get; set; }
-    
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer(ConfigurationManager.ConnectionStrings["BaseEGEConnection"].ConnectionString);
+                // Путь относительно исполняемого файла
+                string dbPath = Path.Combine(Directory.GetCurrentDirectory(), "AppData", "BaseEGE.mdf");
+
+                // Альтернативный вариант - путь относительно корня проекта
+                // string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "AppData", "BaseEGE.mdf");
+
+                if (!File.Exists(dbPath))
+                {
+                    // Создаем папку, если не существует
+                    Directory.CreateDirectory(Path.GetDirectoryName(dbPath));
+
+                    // Здесь можно создать новую БД программно, если файл не существует
+                    throw new FileNotFoundException($"Файл базы данных не найден. Поместите BaseEGE.mdf в: {Path.GetDirectoryName(dbPath)}");
+                }
+
+                string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;
+                                  AttachDbFilename={dbPath};
+                                  Integrated Security=True;
+                                  Connect Timeout=30;
+                                  MultipleActiveResultSets=True;";
+
+                options.UseSqlServer(connectionString);
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
